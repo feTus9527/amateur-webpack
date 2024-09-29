@@ -13,7 +13,7 @@ module.exports = {
   stats: "detailed",
   // 模块配置，注释掉该部分可以明显看到构建时间有上升
   module: {
-    noParse: /jquery|lodash/,
+    noParse: /^(jquery|lodash)$/,
   },
   // 出口配置
   output: {
