@@ -11,9 +11,14 @@
     "loader-demo-babel": "webpack --config config/loader-demo-babel.config.js",
     "plugin-demo-example": "webpack --config config/plugin-demo-example.config.js",
     "plugin-demo-file-list": "webpack --config config/plugin-demo-file-list.config.js",
-    "plugin-demo-webpack-builtin": "webpack --config config/plugin-demo-webpack-builtin.config.js"
+    "plugin-demo-webpack-builtin": "webpack --config config/plugin-demo-webpack-builtin.config.js",
+    "perform-demo-noparse": "webpack --config config/perform-demo-noparse.config.js"
   },
   "private": true,
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
