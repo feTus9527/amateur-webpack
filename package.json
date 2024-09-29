@@ -1,0 +1,35 @@
+{
+  "name": "amateur-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "loader-demo-example": "webpack --config config/loader-demo-example.config.js",
+    "loader-demo-style": "webpack --config config/loader-demo-style.config.js",
+    "loader-demo-img": "webpack --config config/loader-demo-img.config.js",
+    "loader-demo-less": "webpack --config config/loader-demo-less.config.js",
+    "loader-demo-postcss": "webpack --config config/loader-demo-postcss.config.js",
+    "loader-demo-babel": "webpack --config config/loader-demo-babel.config.js",
+    "plugin-demo-example": "webpack --config config/plugin-demo-example.config.js",
+    "plugin-demo-file-list": "webpack --config config/plugin-demo-file-list.config.js",
+    "plugin-demo-webpack-builtin": "webpack --config config/plugin-demo-webpack-builtin.config.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "loader-utils": "^3.3.1",
+    "postcss": "^8.4.47",
+    "postcss-apply": "^0.12.0",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.0.5",
+    "prettier": "^3.3.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
