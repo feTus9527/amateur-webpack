@@ -8,26 +8,26 @@ module.exports = {
   devtool: "source-map",
   // 入口配置
   entry: {
-    main: "./src/plugin-demo/plugin-demo-webpack-builtin/index.js",
+    main: "./src/plugin-demo/plugin-webpack-builtin/index.js",
   },
   // 出口配置
   output: {
     path: path.resolve(process.cwd(), "dist"),
-    filename: "main.js"
+    filename: "main.js",
   },
   // 插件配置
   plugins: [
     new webpack.DefinePlugin({
       PI: `Math.PI`,
       VERSION: `"1.0.0"`,
-      DOMAIN: JSON.stringify("baidu.com")
+      DOMAIN: JSON.stringify("baidu.com"),
     }),
     new webpack.BannerPlugin({
-      banner: `author: fetus\nname: [name]\nhash: [hash]`
+      banner: `author: fetus\nname: [name]\nhash: [hash]`,
     }),
     new webpack.ProvidePlugin({
       $: "jquery",
-      _: "lodash"
+      _: "lodash",
     }),
-  ]
-}
+  ],
+};

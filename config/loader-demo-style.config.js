@@ -7,7 +7,7 @@ module.exports = {
   devtool: "source-map",
   // 入口配置
   entry: {
-    main: "./src/loader-demo/loader-demo-style",
+    main: "./src/loader-demo/loader-style",
   },
   // 模块配置
   module: {
@@ -19,11 +19,11 @@ module.exports = {
         // 匹配到后，对该模块应用的规则
         use: ["./extensions/loaders/style-loader"],
       },
-    ]
+    ],
   },
   // 出口配置
   output: {
     path: path.resolve(process.cwd(), "dist"),
     filename: "main.js",
-  }
-}
+  },
+};

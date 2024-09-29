@@ -7,7 +7,7 @@ module.exports = {
   devtool: "source-map",
   // 入口配置
   entry: {
-    main: "./src/loader-demo/loader-demo-less",
+    main: "./src/loader-demo/loader-less",
   },
   // 模块配置
   module: {
