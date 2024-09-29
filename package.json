@@ -14,7 +14,8 @@
     "plugin-demo-webpack-builtin": "webpack --config config/plugin-demo-webpack-builtin.config.js",
     "perform-demo-noparse": "webpack --config config/perform-demo-noparse.config.js",
     "perform-demo-cache-loader": "webpack --config config/perform-demo-cache-loader.config.js",
-    "perform-demo-thread-loader": "webpack --config config/perform-demo-thread-loader.config.js"
+    "perform-demo-thread-loader": "webpack --config config/perform-demo-thread-loader.config.js",
+    "perform-demo-hmr": "webpack-dev-server --config config/perform-demo-hmr.config.js"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +28,7 @@
     "babel-loader": "^9.2.1",
     "cache-loader": "^4.1.0",
     "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
     "loader-utils": "^3.3.1",
