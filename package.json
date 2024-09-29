@@ -12,7 +12,8 @@
     "plugin-demo-example": "webpack --config config/plugin-demo-example.config.js",
     "plugin-demo-file-list": "webpack --config config/plugin-demo-file-list.config.js",
     "plugin-demo-webpack-builtin": "webpack --config config/plugin-demo-webpack-builtin.config.js",
-    "perform-demo-noparse": "webpack --config config/perform-demo-noparse.config.js"
+    "perform-demo-noparse": "webpack --config config/perform-demo-noparse.config.js",
+    "perform-demo-cache-loader": "webpack --config config/perform-demo-cache-loader.config.js"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +24,7 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
     "babel-loader": "^9.2.1",
+    "cache-loader": "^4.1.0",
     "css-loader": "^7.1.2",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
