@@ -16,7 +16,8 @@
     "perform-demo-cache-loader": "webpack --config config/perform-demo-cache-loader.config.js",
     "perform-demo-thread-loader": "webpack --config config/perform-demo-thread-loader.config.js",
     "perform-demo-hmr": "webpack-dev-server --config config/perform-demo-hmr.config.js",
-    "perform-demo-split-chunks": "webpack --config config/perform-demo-split-chunks.config.js"
+    "perform-demo-split-chunks": "webpack --config config/perform-demo-split-chunks.config.js",
+    "perform-demo-tree-shaking": "webpack --config config/perform-demo-tree-shaking.config.js"
   },
   "private": true,
   "dependencies": {
@@ -33,15 +34,18 @@
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
     "loader-utils": "^3.3.1",
+    "mini-css-extract-plugin": "^2.9.1",
     "postcss": "^8.4.47",
     "postcss-apply": "^0.12.0",
     "postcss-loader": "^8.1.1",
     "postcss-preset-env": "^10.0.5",
     "prettier": "^3.3.3",
+    "purgecss-webpack-plugin": "^6.0.0",
     "style-loader": "^4.0.0",
     "thread-loader": "^4.0.4",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
-  }
+  },
+  "sideEffect": false
 }
