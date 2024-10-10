@@ -15,7 +15,8 @@
     "perform-demo-noparse": "webpack --config config/perform-demo-noparse.config.js",
     "perform-demo-cache-loader": "webpack --config config/perform-demo-cache-loader.config.js",
     "perform-demo-thread-loader": "webpack --config config/perform-demo-thread-loader.config.js",
-    "perform-demo-hmr": "webpack-dev-server --config config/perform-demo-hmr.config.js"
+    "perform-demo-hmr": "webpack-dev-server --config config/perform-demo-hmr.config.js",
+    "perform-demo-split-chunks": "webpack --config config/perform-demo-split-chunks.config.js"
   },
   "private": true,
   "dependencies": {
