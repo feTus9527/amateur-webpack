@@ -2,6 +2,11 @@
   "name": "amateur-webpack",
   "version": "1.0.0",
   "description": "A basic attempt of webpack",
+  "private": true,
+  "packageManager": "pnpm@8.15.6",
+  engines: {
+    node: ">=18.0.0"
+  },
   "scripts": {
     "loader-demo-example": "webpack --config config/loader-demo-example.config.js",
     "loader-demo-style": "webpack --config config/loader-demo-style.config.js",
@@ -21,8 +26,6 @@
     "perform-demo-tree-shaking": "webpack --config config/perform-demo-tree-shaking.config.js",
     "lint": "eslint ."
   },
-  "private": true,
-  "packageManager": "pnpm@8.15.6",
   "dependencies": {
     "jquery": "^3.7.1",
     "lodash": "^4.17.21"
