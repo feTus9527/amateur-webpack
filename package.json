@@ -1,7 +1,7 @@
 {
   "name": "amateur-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic attempt of webpack",
   "scripts": {
     "loader-demo-example": "webpack --config config/loader-demo-example.config.js",
     "loader-demo-style": "webpack --config config/loader-demo-style.config.js",
