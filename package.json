@@ -16,6 +16,7 @@
     "type": "git",
     "url": "https://github.com/feTus9527/amateur-webpack.git"
   },
+  license: "MIT",
   "scripts": {
     "loader-demo-example": "webpack --config config/loader-demo-example.config.js",
     "loader-demo-style": "webpack --config config/loader-demo-style.config.js",
