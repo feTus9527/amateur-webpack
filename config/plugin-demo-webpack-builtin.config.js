@@ -4,18 +4,14 @@ const webpack = require("webpack");
 
 module.exports = {
   mode: "development",
-  // 开发工具配置
   devtool: "source-map",
-  // 入口配置
   entry: {
     main: "./src/plugin-demo/plugin-webpack-builtin/index.js",
   },
-  // 出口配置
   output: {
     path: path.resolve(process.cwd(), "dist"),
     filename: "main.js",
   },
-  // 插件配置
   plugins: [
     new webpack.DefinePlugin({
       PI: `Math.PI`,

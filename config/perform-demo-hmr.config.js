@@ -4,9 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
-  // 开发工具配置
   devtool: "source-map",
-  // 入口配置
   entry: {
     main: "./src/perform-demo/perform-hmr",
   },
