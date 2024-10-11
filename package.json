@@ -21,6 +21,7 @@
     "lint": "eslint ."
   },
   "private": true,
+  "packageManager": "pnpm@8.15.6",
   "dependencies": {
     "jquery": "^3.7.1",
     "lodash": "^4.17.21"
