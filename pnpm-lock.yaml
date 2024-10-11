@@ -25,6 +25,9 @@ devDependencies:
   cache-loader:
     specifier: ^4.1.0
     version: 4.1.0(webpack@5.95.0)
+  compression-webpack-plugin:
+    specifier: ^11.1.0
+    version: 11.1.0(webpack@5.95.0)
   css-loader:
     specifier: ^7.1.2
     version: 7.1.2(webpack@5.95.0)
@@ -2506,6 +2509,17 @@ packages:
     engines: {node: '>= 0.6'}
     dependencies:
       mime-db: 1.53.0
+    dev: true
+
+  /compression-webpack-plugin@11.1.0(webpack@5.95.0):
+    resolution: {integrity: sha512-zDOQYp10+upzLxW+VRSjEpRRwBXJdsb5lBMlRxx1g8hckIFBpe3DTI0en2w7h+beuq89576RVzfiXrkdPGrHhA==}
+    engines: {node: '>= 18.12.0'}
+    peerDependencies:
+      webpack: ^5.1.0
+    dependencies:
+      schema-utils: 4.2.0
+      serialize-javascript: 6.0.2
+      webpack: 5.95.0(webpack-cli@5.1.4)
     dev: true
 
   /compression@1.7.4:
