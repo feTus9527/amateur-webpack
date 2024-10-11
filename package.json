@@ -17,7 +17,8 @@
     "perform-demo-thread-loader": "webpack --config config/perform-demo-thread-loader.config.js",
     "perform-demo-hmr": "webpack-dev-server --config config/perform-demo-hmr.config.js",
     "perform-demo-split-chunks": "webpack --config config/perform-demo-split-chunks.config.js",
-    "perform-demo-tree-shaking": "webpack --config config/perform-demo-tree-shaking.config.js"
+    "perform-demo-tree-shaking": "webpack --config config/perform-demo-tree-shaking.config.js",
+    "lint": "eslint ."
   },
   "private": true,
   "dependencies": {
@@ -30,6 +31,7 @@
     "babel-loader": "^9.2.1",
     "cache-loader": "^4.1.0",
     "css-loader": "^7.1.2",
+    "eslint": "^9.12.0",
     "html-webpack-plugin": "^5.6.0",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
