@@ -10,7 +10,7 @@ Run following script to install deps.
 pnpm install
 ```
 
-## Structure
+## Directory Tree
 
 ```text
 amateur-webpack/ 
@@ -26,6 +26,7 @@ amateur-webpack/
 ├── .browserslistrc
 ├── .gitignore
 ├── LICENSE
+├── README.md
 ├── eslint.config.mjs
 ├── index.html
 ├── package.json
