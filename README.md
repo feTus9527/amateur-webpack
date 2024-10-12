@@ -32,5 +32,4 @@ amateur-webpack/
 ├── package.json
 ├── pnpm-lock.yaml
 └── postcss.config.js
-
 ```
